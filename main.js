@@ -1,10 +1,10 @@
 function main() {
-  // Iterate through the accounts and print the accounts IDs
+  // Iterate through the accounts and print the accounts IDs:
   var accountSelector = AdsManagerApp
     .accounts()
     .orderBy("customer_client.descriptive_name DESC");
 
-  // Set minimum spend and recipient for alerts
+  // Set minimum spend and recipient for alerts:
   var minimumSpend = 1; 
   var recipient = 'paul.van.amelsvoort@kpmarketing.nl';
   var accountsUnderSpending = [];
