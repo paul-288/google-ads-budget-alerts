@@ -18,10 +18,10 @@ function main() {
     if (excludeAccounts.indexOf(thisAccountID) > -1){
         continue
     }
-    Logger.log('Dit is het account: ' + thisAccountName);
+    Logger.log('This is the account: ' + thisAccountName);
     var metricsYesterday = account.getStatsFor("YESTERDAY");
     var spendYesterday = metricsYesterday.getCost();
-    Logger.log('Dit waren de uitgaven: €' + spendYesterday);
+    Logger.log('This was the spend: €' + spendYesterday);
     if (spendYesterday < minimumSpend) {
       // Vars if spend is below the minimumSpend:
       accountsUnderSpending.push(thisAccountName)
