@@ -6,9 +6,9 @@ function main() {
 
   // Set minimum spend and recipient for alerts:
   var minimumSpend = 1; 
-  var recipient = 'paul.van.amelsvoort@kpmarketing.nl';
+  var recipient = 'email@outlook.com';
   var accountsUnderSpending = [];
-  var excludeAccounts = ['960-741-4382','989-778-6882','379-530-3426','320-269-4344']
+  var excludeAccounts = ['012-345-6789','012-345-6789','012-345-6789','012-345-6789']
   
   var accountIterator = accountSelector.get();
   while (accountIterator.hasNext()) {
