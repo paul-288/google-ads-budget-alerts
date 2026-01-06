@@ -38,4 +38,3 @@ function main() {
     MailApp.sendEmail(recipient, subject, body);
   }
 }
-jeuuhhhhhhhhhhhhhhhhhh
